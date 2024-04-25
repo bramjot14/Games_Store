@@ -1,5 +1,5 @@
 # Games_Store
-Certainly! Let's dive into a detailed description of this board games store website:
+Detailed description of this board games store website:
 
 ### HTML Structure:
 The HTML document sets up the structure of the board games store website. It includes:
