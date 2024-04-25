@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Board Games Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="company-name">Board Games Store</h1>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Welcome to our store!</h2>
+        <p>Please provide your name and email:</p>
+        <input type="text" id="name" placeholder="First & Last Name">
+        <input type="email" id="email" placeholder="Email">
+        <button onclick="customerId()">Submit</button>
+      </div>
+    </div>
+    
+    <div id="welcome" class="hidden">
+      <h2 id="welcome-message"></h2>
+    </div>
+
+    <div id="products"></div>
+
+    <div id="cart" class="hidden">
+      <div id="cart-items"></div>
+    </div>
+  </div>
+
+  <button id="checkout-button" class="hidden checkout-button" onclick="checkout()">Checkout</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
